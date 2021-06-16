@@ -18,5 +18,9 @@ body {
   height: 100vh;
   background-image: url(../images/backgrounds/h_img.jpg);
   background-position: 100% center;
-  margin: auto;
+}
+
+.figure {
+  position: absolute;
+  bottom: 20px;
 }
