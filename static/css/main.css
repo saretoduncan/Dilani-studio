@@ -29,3 +29,7 @@ body {
   background-image: url("../images/backgrounds/s_image.jpg");
   height: 40vh;
 }
+
+.service p {
+  text-shadow: 0 2px 3px black;
+}
