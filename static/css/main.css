@@ -22,5 +22,10 @@ body {
 
 .figure {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
+}
+
+.service {
+  background-image: url("../images/backgrounds/s_image.jpg");
+  height: 40vh;
 }
