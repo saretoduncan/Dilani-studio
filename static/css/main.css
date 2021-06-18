@@ -33,3 +33,7 @@ body {
 .service p {
   text-shadow: 0 2px 3px black;
 }
+
+.weDo {
+  height: 30vh;
+}
