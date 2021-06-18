@@ -35,10 +35,26 @@ body {
 }
 
 .weDo {
-  height: 30vh;
+  min-height: 30vh;
 }
 
 .contact {
   height: 70vh;
+  background-position: center 100%;
   background-image: url("../images/backgrounds/c_image.jpg")
+}
+
+form {
+  width: 60%;
+}
+
+.txt-area {
+  margin: 10px auto;
+  width: 95% !important;
+  height: 40vh !important;
+}
+
+::placeholder {
+  color: white !important;
+  opacity: .7 !important;
 }

@@ -115,18 +115,24 @@
   </div>
   <div class="container-fluid backGround contact">
     <h1 class="text-center mt-5 mb-5 ">CONTACT US</h1>
-    <div class=" container m-auto row">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    <form class=" m-auto" action="">
+      <div class=" container m-auto row">
+        <div class="col-6">
+          <input type="text" class="form-control bg-transparent text-light" placeholder="Name..." aria-label="First name">
+        </div>
+        <div class="col-6">
+          <input type="email" class="form-control bg-transparent text-light" placeholder="Email..." aria-label="Email">
+        </div>
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      <div class=" container form-floating">
+        <textarea class="form-control bg-transparent text-light txt-area" placeholder="your text here..." id="floatingTextarea"></textarea>
+
       </div>
-    </div>
-    <div class=" container form-floating">
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-      <label for="floatingTextarea">Comments</label>
-    </div>
+      <div class="container ms-4"> <button type="submit" class="btn btn-outline-warning">Submit</button></div>
+
+
+
+    </form>
   </div>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
