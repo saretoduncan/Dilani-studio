@@ -9,6 +9,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none
+}
+
 .backGround {
   background-size: cover;
   background-repeat: none;
