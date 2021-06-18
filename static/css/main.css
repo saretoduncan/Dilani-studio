@@ -37,3 +37,8 @@ body {
 .weDo {
   height: 30vh;
 }
+
+.contact {
+  height: 70vh;
+  background-image: url("../images/backgrounds/c_image.jpg")
+}
