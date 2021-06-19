@@ -23,11 +23,11 @@
       </div>
     </div>
     <figure class="figure">
-      <img class="img-fluid" src="./static/images/mouse_click.png" alt="mouse click logo">
+      <a href="#about"><img class="img-fluid" src="./static/images/mouse_click.png" alt="mouse click logo"></a>
     </figure>
 
   </div>
-  <div class="container ">
+  <div class="container " id="about">
     <h1 class="text-center mt-5">ABOUT US</h1>
     <p class="text-center fs-6 lh-lg">When you work with us, you are part of a team of committed collaborators. All aspects of software development process are integrated, interactive and agile.<br> Our approach unifies design, development and product management to create exceptional
       products.
@@ -42,27 +42,27 @@
     <h1 class="text-center mt-5 mb-5">WHAT WE DO</h1>
     <div class=" position-relative col-sm-12  col-md-4 d-flex align-items-center justify-content-center   ">
       <figure class="d-flex flex-column align-items-center fig">
-        <img class=" img-fluid" src="./static/images/services_icons/design_icon.png">
-        <figcaption>DESIGN</figcaption>
+        <img class=" img-fluid designFig" src="./static/images/services_icons/design_icon.png">
+        <figcaption class="designFig">DESIGN</figcaption>
       </figure>
-      <p class="position-absolute  text-center whatDo"><strong>DESIGN</strong><br> Our design practice offers a full range of services <br> including brand strategy, interaction and visual design <br>and user experience testing.<br><br> Throughout your project, our design create and implement visual
+      <p class="position-absolute  text-center whatDo" id="designPar"><strong>DESIGN</strong><br> Our design practice offers a full range of services <br> including brand strategy, interaction and visual design <br>and user experience testing.<br><br> Throughout your project, our design create and implement visual
         design and workflows, solicit user<br> feedback and work with you to make sure what gets built<br> is what you need.
       </p>
     </div>
     <div class="position-relative col-sm-12 col-md-4 d-flex align-items-center justify-content-center  ">
       <figure class="d-flex flex-column align-items-center fig">
-        <img class="img-fluid" src="./static/images/services_icons/dev_icon.png">
-        <figcaption>DEVELOPMENT</figcaption>
+        <img class="img-fluid devFig" src="./static/images/services_icons/dev_icon.png">
+        <figcaption class="devFig">DEVELOPMENT</figcaption>
       </figure>
-      <p class="position-absolute text-center whatDo"><strong> DEVELOPMENT</strong><br> All engineers are fluent in the latest enterprise, mobile<br> and web development technologies.<br><br> They collaborate with your team to write, and improve <br> code on a daily basis, using proven practices such
+      <p class="position-absolute text-center whatDo" id="devPar"><strong> DEVELOPMENT</strong><br> All engineers are fluent in the latest enterprise, mobile<br> and web development technologies.<br><br> They collaborate with your team to write, and improve <br> code on a daily basis, using proven practices such
         as <br>test-drive<br> development and pair programming. </p>
     </div>
     <div class=" position-relative col-sm-12 col-md-4 d-flex justify-content-center align-items-center ">
       <figure class="d-flex flex-column align-items-center fig ">
-        <img class="img-fluid" src="./static/images/services_icons/product_icon.png">
-        <figcaption>PROJECT MANAGEMENT</figcaption>
+        <img class="img-fluid productFig" src="./static/images/services_icons/product_icon.png">
+        <figcaption class="productFig">PROJECT MANAGEMENT</figcaption>
       </figure>
-      <p class="position-absolute  text-center whatDo"><strong>PRODUCT MANAGEMENT</strong> <br>Planning and development is iterative. Because we are <br>constantly coding and testing, the products we build are <br> always ready to go live.<br><br> This iterative process allows for changes as business
+      <p class="position-absolute  text-center whatDo" id="productPar"><strong>PRODUCT MANAGEMENT</strong> <br>Planning and development is iterative. Because we are <br>constantly coding and testing, the products we build are <br> always ready to go live.<br><br> This iterative process allows for changes as business
         <br> requirements evolve
       </p>
     </div>
@@ -170,6 +170,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="./static/js/main.js"></script>
 </body>
 
 </html>
