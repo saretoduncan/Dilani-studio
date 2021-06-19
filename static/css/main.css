@@ -46,6 +46,17 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.projectName {
+  opacity: 0;
+  text-shadow: 3PX 2px 3px black;
+}
+
+.projectName:hover {
+  opacity: 1;
+  transition: .5s;
+  background-color: rgba(17, 17, 17, 0.411);
+}
+
 .contact {
   height: 70vh;
   background-position: center 100%;
