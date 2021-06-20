@@ -49,6 +49,7 @@ body::-webkit-scrollbar {
 .projectName {
   opacity: 0;
   text-shadow: 3PX 2px 3px black;
+  font-weight: bold;
 }
 
 .projectName:hover {
