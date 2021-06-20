@@ -14,3 +14,14 @@ const txtToggle = e => {
 const weDO = [design, development, product]
 weDO.forEach(e => txtToggle(e));
 //end...what we do section
+//start... form section
+$(document).ready(() => {
+    $("#submit").click((e) => {
+      if ($("#email").val() === "" || $("#name").val() === "") {
+        e.preventDefault();
+        alert(`enter your Name and email address`);
+      } else alert(`${$("#name").val()} we have received your message. Thank you for reaching out to us. `);
+      $("form").trigger("reset");
+    });
+  })
+  //end.. form section
