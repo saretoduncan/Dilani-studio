@@ -12,7 +12,7 @@ A landing page of a fictional studio
 
 ## Live Demo
 
-[Live Demo Link](https://saretoduncan.github.io/dilani-studio/)
+[Live Demo Link](https://saretoduncan.github.io/Dilani-studio/)
 
 
 ## Getting Started
